@@ -20,8 +20,8 @@ export default function TheWork() {
       <div className="work">
       <h1>The Works...</h1>
       </div>
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/primal.png" height="400px" class="card-img-top" alt="..."/> 
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/primal.png" height="400px" class="card-img-top" alt="..."/> 
         <div class="card-body">
           <h5 class="card-title">Primal Planner</h5>
           <p class="card-text">
@@ -33,8 +33,8 @@ export default function TheWork() {
         </div>
       </div>
 
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/wow.png" class="card-img-top" alt="Picture of a Blog"/> 
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/wow.png" class="card-img-top" alt="Picture of a Blog"/> 
         <div class="card-body">
           <h5 class="card-title">Handleblogs</h5>
           <p class="card-text">
@@ -46,8 +46,8 @@ export default function TheWork() {
         </div>
       </div>
 
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/factors.png" height="300px" class="card-img-top" alt="Image of Search Engine"/>
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/factors.png" height="300px" class="card-img-top" alt="Image of Search Engine"/>
         <div class="card-body">
           <h5 class="card-title">Factors</h5>
           <p class="card-text">
@@ -59,8 +59,8 @@ export default function TheWork() {
         </div>
       </div>
 
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/connect.png" class="card-img-top" alt="..."/>
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/connect.png" class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">ConnectUs</h5>
           <p class="card-text">
@@ -72,8 +72,8 @@ export default function TheWork() {
         </div>
       </div>
 
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/weather.png" class="card-img-top" alt="..."/> 
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/weather.png" class="card-img-top" alt="..."/> 
         <div class="card-body">
           <h5 class="card-title">WeatherGuy</h5>
           <p class="card-text">
@@ -85,8 +85,8 @@ export default function TheWork() {
         </div>
       </div>
 
-      <div class="card" style={{ width: '18rem' }}>
-        <img src="/src/images/connect.png" class="card-img-top" alt="..."/>
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="/images/connect.png" class="card-img-top" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">ConnectUs</h5>
           <p class="card-text">
