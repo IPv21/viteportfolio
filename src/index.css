@@ -277,21 +277,21 @@ h2 {
 }
 
 #themanlanding:hover{
-  background-image: url('/public/images/thamanlanding1.jpg');
+  background-image: url('/images/thamanlanding1.jpg');
   background-size: cover;
   background-position: center;
 
 }
 
 #theworkslanding:hover{
-  background-image: url('/public/images/theworkslanding.jpg');
+  background-image: url('/images/theworkslanding.jpg');
   background-size: cover;
   background-position: center;
 
 }
 
 #thecalllanding:hover{
-  background-image: url('/public/images/thecalllanding.jpg');
+  background-image: url('/images/thecalllanding.jpg');
   background-size:cover;
   background-position: center;
 
