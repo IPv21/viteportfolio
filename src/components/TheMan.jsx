@@ -29,7 +29,7 @@ export default function TheMan() {
           takes me!
         </p>
         <img
-          src="src/images/lookleft.jpg"
+          src="/images/lookleft.jpg"
           alt="Matthew Shuman"
           height="90%"
           width="200px"
@@ -38,7 +38,7 @@ export default function TheMan() {
       <div className="moreman">
         <img
           id="marathon"
-          src="src//images/marathon.jpg"
+          src="/images/marathon.jpg"
           alt="Matthew Shuman"
           height="250px"
           width="200px"
@@ -53,14 +53,14 @@ export default function TheMan() {
       <div className="evenmoreman center-horizontal">
         <img
           id="resume"
-          src="src/images/1.png"
+          src="/images/1.png"
           alt="Resume Page 1"
           height="800px"
           width="600px"
         />
         <img
           id="resume"
-          src="src/images/2.png"
+          src="/images/2.png"
           alt="Resume Page 2"
           height="800px"
           width="600px"

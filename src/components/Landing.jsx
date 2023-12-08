@@ -22,7 +22,7 @@ function Landing() {
 
         <div className='intro'>
     <h1>Matthew Shuman</h1>
-    <img src="src/images/cover.jpg" alt="Matthew Shuman" height='250px' width='220px'/>
+    <img src="/images/cover.jpg" alt="Matthew Shuman" height='250px' width='220px'/>
     <p  id="devs"><span id="soo" className="brace">{'{'}</span><span className="web">web</span><span className="developer">Developer</span><span className="brace">{'}'}</span><span className='web'>;</span></p>
 </div>
 

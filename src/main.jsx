@@ -5,10 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '/src/index.css'
 
 import App from './App.jsx';
-import Landing from './pages/Landing.jsx';
-import TheMan from './pages/TheMan.jsx';
-import TheWork from './pages/TheWork.jsx';
-import TheCall from './pages/TheCall.jsx';
+import Landing from './components/Landing.jsx';
+import TheMan from './components/TheMan.jsx';
+import TheWork from './components/TheWork.jsx';
+import TheCall from './components/TheCall.jsx';
 
 const router = createBrowserRouter([
     {
