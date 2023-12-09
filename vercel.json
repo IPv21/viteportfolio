@@ -1,5 +1,5 @@
 {
     "redirects": [
-      { "source": "/man", "destination": "/components/TheMan", "statusCode": 301 }
+      { "source": "/man", "destination": "/components/man", "statusCode": 301 }
     ]
   }
