@@ -1,5 +1,15 @@
 {
     "version": 2,
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "src/**/*",
+        "use": "@vercel/static"
+      }
+    ],
     "routes": [
       {
         "src": "/api/(.*)",
@@ -9,12 +19,5 @@
         "src": ".*",
         "dest": "/index.html"
       }
-    ],
-    "builds": [
-      {
-        "src": "src/**/*",
-        "use": "@vercel/static"
-      }
     ]
   }
-  
