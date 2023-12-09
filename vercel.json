@@ -1,27 +1,20 @@
 {
+    "version": 2,
     "routes": [
       {
         "src": "/api/(.*)",
         "dest": "/api/$1"
       },
       {
-        "src": "/(.*)",
-        "dest": "/index.html",
-        "status": 200,
-        "headers": {
-          "Cache-Control": "s-maxage=1, stale-while-revalidate"
-        }
+        "src": ".*",
+        "dest": "/index.html"
       }
     ],
     "builds": [
       {
-        "src": "vite.config.js",
-        "use": "@vercel/node"
-      },
-      {
         "src": "src/**/*",
         "use": "@vercel/static"
       }
-    ],
-    "version": 2
+    ]
   }
+  
