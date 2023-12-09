@@ -2,7 +2,7 @@
   "name": "Matthew Shuman",
   "version": "1.0.0",
   "description": "A simple portfolio website to showcase my work.",
-  "type": "module"
+  "type": "module",
   "main": "index.html",
   "homepage": "https://ipv21.github.io/viteportfolio/",
   "scripts": {
