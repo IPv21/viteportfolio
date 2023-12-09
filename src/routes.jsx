@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import App from './App.jsx';
+import App from './main.jsx';
 import Landing from './components/Landing.jsx';
 import TheMan from './components/TheMan.jsx';
 import TheWork from './components/TheWork.jsx';
