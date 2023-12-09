@@ -1,19 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Landing from './components/Landing';
-import Landing from './components/Landing';
-import TheMan from './components/TheMan';
-import TheWork from './components/TheWork';
-import TheCall from './components/TheCall';
+
+import App from './App.jsx';
+import Landing from './components/Landing.jsx';
+import TheMan from './components/TheMan.jsx';
+import TheWork from './components/TheWork.jsx';
+import TheCall from './components/TheCall.jsx';
 
 const Routes = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Switch>
-        <Route path="/" exact component={Landing} />
-        <Route path="/man" component={TheMan} />
-        <Route path="/works" component={TheWork} />
-        <Route path="/call" component={TheCall} />
+        <Route path="/" exact element={<App />}>
+          <Route index element={<Landing />} />
+          <Route path="/man" element={<TheMan />} />
+          <Route path="/work" element={<TheWork />} />
+          <Route path="/call" element={<TheCall />} />
+        </Route>
       </Switch>
     </Router>
   );
