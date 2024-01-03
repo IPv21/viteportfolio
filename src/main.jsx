@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -20,21 +21,21 @@ const router = createBrowserRouter([
                 element: <Landing />,
             },
             {
-                path: '/man',
+                path: 'man',
                 element: <TheMan />,
             },
             {
-                path: '/work',
+                path: 'work',
                 element: <TheWork />,
             },
             {
-                path: '/call',
+                path: 'call',
                 element: <TheCall />,
             },
         ],
     },
 ]);
-
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
 );
+
